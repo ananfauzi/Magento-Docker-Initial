@@ -14,7 +14,7 @@ docker compose exec web bash
 ```
 3. download magento files via composer
 ```
-composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition .
+sudo composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition .
 ```
 download can't run automatically, you need to fill the credentials. Please see <a href="https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html#">here</a>, to get the credentials. <br />
 4. Install magento
