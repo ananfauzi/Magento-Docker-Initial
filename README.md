@@ -35,7 +35,7 @@ bin/magento setup:install \
 --use-rewrites=1 \
 --elasticsearch-host=elastic \
 --elasticsearch-port=9200 \
---earch-engine=elasticsearch7
+--search-engine=elasticsearch7
 ```
 5. Install sample data (optional)
 ```
